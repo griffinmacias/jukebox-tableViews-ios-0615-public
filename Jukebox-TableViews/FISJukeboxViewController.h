@@ -8,8 +8,9 @@
 
 #import <UIKit/UIKit.h>
 #import <AVFoundation/AVFoundation.h>
-
+#import "FISSong.h"
 @interface FISJukeboxViewController : UIViewController <UITextFieldDelegate>
 
 @property (strong, nonatomic) AVAudioPlayer *audioPlayer;
+@property (strong, nonatomic) FISSong *song;
 @end
